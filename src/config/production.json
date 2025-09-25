@@ -1,0 +1,9 @@
+{
+  "NODE_ENV": "production",
+  "PORT": 9191,
+  "TOKEN_GENERATOR": "jwt",
+  "DB_NAME": "nagosaortal",
+  "DB_PASSWORD": "Ortal1304N",
+  "LOGGER": "morgan",
+  "DB": "MONGODB"
+}
