@@ -1,22 +1,25 @@
-# פרויקט Node.js - Server מלא
-
-## תיאור הפרויקט
-פרויקט גדול ב-Node.js עם Express ומסד נתונים MongoDB, המאפשר ניהול **משתמשים וכרטיסים** (Users & Cards).  
-הפרויקט כולל:
-- יצירת נתונים התחלתיים (Initial Data)
-- CRUD עבור Users ו-Cards
-- טיפול בשגיאות אוניברסלי
-- Middleware עבור Logger ו-CORS
-- שרת קבצים סטטיים
-
----
-
-## דרישות מוקדמות
-- Node.js >= 18
-- npm או yarn
-- MongoDB (Atlas או מקומי)
-- Git
-
----
+# Project-node.js
 
 
+פרויקט Node.js + Express + MongoDB
+
+
+## דרישות
+Node.js >= 18, MongoDB, npm
+
+
+## התקנה
+1. `git clone ...`
+2. `npm install`
+3. העתק `.env.example` -> `.env` והזן משתנים
+4. `npm run dev`
+
+
+## סקריפטים
+`start`, `dev`, `lint`, `test`
+
+
+## בעיות נפוצות
+- ודא סדר middleware: logger -> cors -> routes -> error handler
+- ודא `MONGO_URI` תקין
+- בדוק חוקים של הסיסמה והתחשבות ב-bcrypt
