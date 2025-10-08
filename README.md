@@ -1,6 +1,7 @@
 אפליקציית Full Stack – צד שרת (Node.js + Express + MongoDB)
 
 מחברת: אורטל נגוסה
+
 טכנולוגיות: Node.js, Express, MongoDB, Mongoose, RESTful API, Middleware, Joi
 
 📖 תיאור הפרויקט
